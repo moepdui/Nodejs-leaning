@@ -1,0 +1,34 @@
+{
+  "name": "captcha",
+  "version": "1.0.0",
+  "description": "A simple captcha service.",
+  "main": "cluster.js",
+  "scripts": {
+    "start": "node cluster.js",
+    "dev": "node --watch cluster.js",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "keywords": [
+    "captcha",
+    "service"
+  ],
+  "author": "kartikmehta8",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cluster": "^0.7.7",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "helmet": "^7.1.0",
+    "mustache-express": "^1.3.2",
+    "opossum": "^8.1.4",
+    "prom-client": "^15.1.3",
+    "redis": "^4.7.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
